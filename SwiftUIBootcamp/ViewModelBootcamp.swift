@@ -9,7 +9,7 @@ import SwiftUI
 
 // @Published enables automatic updates when a UI updates when data changes. Allows us to create observable objects that automatically announce when changes occur for a CLASS
 
-// @ObservedObject this tell the View to lookout for ViewModel changes in this case, OG ViewModel has to conform to the ObservabledObject to be seen/lookable. The only downside to ObserveredObject is that if the View reloads, refreshed, recreated, maybe there is animation or something else that causes the View to reload, The OservedObject would also reload causing issues.
+// @ObservedObject this tell the View to lookout for ViewModel changes in this case, OG ViewModel has to conform to the ObservabledObject to be seen/lookable/OBSERVED. The only downside to ObserveredObject is that if the View reloads, refreshed, recreated, maybe there is animation or something else that causes the View to reload, The OservedObject would also reload causing issues.
 
 // We want the data to persist even if the View reloads. We can use the @STATEOBJECT is the same as the OservedObject but will always persist, it will not refresh
 
