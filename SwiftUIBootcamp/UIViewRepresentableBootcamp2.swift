@@ -2,7 +2,7 @@
 //  UIViewRepresentableBootcamp2.swift
 //  SwiftUIBootcamp
 //
-//  Created by Nhlanhla Kubayi on 2026/02/11.
+//  Created by Lindokuhle Khumalo on 2026/02/11.
 //
 
 import SwiftUI
